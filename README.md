@@ -7,3 +7,11 @@ On a retail website, the following discounts apply:
 as a discount).
 5. The percentage based discounts do not apply on groceries.
 6. A user can get only one of the percentage based discounts on a bill.
+
+I have used Maven to build the project. To import the project in any IDE, load the pom.xml and import dependecies. 
+To run via commandline , execute "mvn clean install" 
+TO run the test cases alone, execute "mvn test"
+
+Code coverage has been done in Jacoco. coverage reports will be available in /target/site/jacoco/index.html
+
+Code uses Java 1.8 and JUnit 4.2 
